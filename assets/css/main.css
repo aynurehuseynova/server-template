@@ -1,0 +1,507 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header nav {
+  background-color: #343A40;
+  min-height: 76px;
+  width: 100%;
+}
+header nav .homeListMain {
+  width: 80%;
+  height: 100%;
+}
+header nav .homeListMain .homeList {
+  width: 70%;
+  height: 100%;
+}
+header nav .homeListMain .homeList .homeListUl {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi {
+  position: relative;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi a {
+  font-size: 16px;
+  line-height: 37px;
+  font-family: poppins;
+  color: #ADB6C1;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi a:hover {
+  color: white;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi .hostingDropdown {
+  display: none;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi .hostingDropdown ul {
+  list-style: none;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  font-size: 18px;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi .hostingDropdown ul li {
+  cursor: pointer;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi .hostingDropdown ul li:hover {
+  color: #7CBD1E;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi:hover .hostingDropdown {
+  display: block;
+  position: absolute;
+  color: rgb(62, 68, 73);
+  top: 110%;
+  width: 220%;
+  background-color: white;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi:hover .hostingDropdown .subMenu {
+  position: relative;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi:hover .hostingDropdown .subMenu ul {
+  list-style: none;
+  color: rgb(62, 68, 73);
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi:hover .hostingDropdown .subMenu:hover .subMenuDropdown {
+  display: block;
+  position: absolute;
+  top: -50%;
+  right: -100%;
+  width: 100%;
+}
+header nav .homeListMain .homeList .homeListUl .homeListLi:hover .hostingDropdown .subMenuDropdown {
+  display: none;
+}
+header nav .homeListMain .homeList .btnAll {
+  gap: 5px;
+  width: 20%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+header nav .homeListMain .homeList .btnAll .register {
+  background-color: #343A40;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  height: 76%;
+  width: 48%;
+  color: white;
+  border: 1.5px solid #7CBD1E;
+  font-size: 16px;
+  line-height: 37px;
+  font-family: poppins;
+}
+header nav .homeListMain .homeList .btnAll .register:hover {
+  background-color: #7CBD1E;
+}
+header nav .homeListMain .homeList .btnAll .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  height: 75%;
+  width: 39%;
+  background-color: #7CBD1E;
+  color: white;
+  border: none;
+  font-size: 16px;
+  line-height: 37px;
+  font-family: poppins;
+}
+header nav .homeListMain .homeList .btnAll .login:hover {
+  background-color: #669c19;
+}
+
+main #affordabble-domains {
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url(/assets/image/hero_bg_1.jpg);
+}
+main #affordabble-domains .affordable {
+  width: 100%;
+  text-align: center;
+}
+main #affordabble-domains .affordable h1 {
+  min-height: 70px;
+  font-size: 60px;
+  color: white;
+  font-family: sans-serif;
+}
+main #affordabble-domains .form {
+  width: 100%;
+  text-align: center;
+}
+main #affordabble-domains .form p {
+  font-family: "Courier New", Courier, monospace;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+}
+main #affordabble-domains .download .btnAll {
+  gap: 5px;
+  width: 20%;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  margin: auto;
+}
+main #affordabble-domains .download .btnAll .register {
+  background-color: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  height: 76%;
+  width: 58%;
+  color: white;
+  border: 1.5px solid #ffffff;
+  font-size: 16px;
+  line-height: 37px;
+  font-family: poppins;
+}
+main #affordabble-domains .download .btnAll .register:hover {
+  background-color: #7CBD1E;
+}
+main #affordabble-domains .download .btnAll .login {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0;
+  height: 75%;
+  width: 58%;
+  background-color: #7CBD1E;
+  color: white;
+  border: none;
+  font-size: 16px;
+  line-height: 37px;
+  font-family: poppins;
+}
+main #affordabble-domains .download .btnAll .login:hover {
+  background-color: #669c19;
+}
+main #hosting-platforms {
+  min-height: 600px;
+  width: 100%;
+  background-color: #f8f9fa;
+}
+main #hosting-platforms .platforms {
+  width: 100%;
+  min-height: 200px;
+  margin-top: 20px;
+}
+main #hosting-platforms .platforms h1 {
+  text-align: center;
+  width: 50%;
+  margin: auto;
+  padding-top: 20px;
+}
+main #hosting-platforms .box {
+  width: 100%;
+  min-height: 350px;
+  margin-bottom: 20px;
+  border: 1px solid #eceeef;
+  background-color: white;
+}
+main #hosting-platforms .box .icon i {
+  display: flex;
+  justify-content: center;
+  font-size: 60px;
+  color: #669c19;
+  margin-top: 20px;
+}
+main #hosting-platforms .box .hosting {
+  margin-top: 20px;
+  text-align: center;
+}
+main #hosting-platforms .box .hosting h6 {
+  font-size: 23px;
+  font-family: sans-serif;
+  font-weight: 300;
+}
+main #hosting-platforms .box .hosting p {
+  color: #ADB6C1;
+}
+main #hosting-platforms .box .hosting button {
+  background-color: #7CBD1E;
+  width: 46%;
+  min-height: 40px;
+  border-style: none;
+  color: #ffffff;
+  font-weight: 400;
+}
+main #hosting-platforms .box .hosting button:hover {
+  background-color: #669c19;
+}
+
+#satisfied-clients {
+  background-image: url(/assets/image/hero_bg_3.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 550px;
+}
+#satisfied-clients .satisfied-clients {
+  margin-left: 20px;
+  width: 100%;
+}
+#satisfied-clients .satisfied-clients h1 {
+  font-size: 70px;
+  font-family: sans-serif;
+  color: #ffffff;
+}
+#satisfied-clients .satisfied-clients p {
+  font-size: 22px;
+  color: #ffffff;
+  min-height: 80px;
+}
+#satisfied-clients .satisfied-clients button {
+  min-height: 60px;
+  width: 14%;
+  background-color: #7CBD1E;
+  border-style: none;
+  color: #ffffff;
+}
+#satisfied-clients .satisfied-clients button:hover {
+  background-color: #669c19;
+}
+
+#why-Choose-Us {
+  width: 100%;
+  min-height: 940px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#why-Choose-Us .choose {
+  text-align: center;
+}
+#why-Choose-Us .choose h1 {
+  color: #4D4D4D;
+  font-size: 33px;
+  font-family: sans-serif;
+  font-weight: 400;
+  min-height: 100px;
+}
+#why-Choose-Us .outstanding-speed {
+  width: 100%;
+  border: 1px solid #eceeef;
+  background-color: #ffffff;
+  min-height: 280px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  transition: 0.3s ease;
+  margin-bottom: 25px;
+}
+#why-Choose-Us .outstanding-speed:hover {
+  background-color: #7CBD1E;
+  color: #ffffff;
+}
+#why-Choose-Us .outstanding-speed .iconhead {
+  min-height: 70px;
+  width: 65%;
+  margin: auto;
+  display: flex;
+}
+#why-Choose-Us .outstanding-speed .iconhead i {
+  font-size: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#why-Choose-Us .outstanding-speed .iconhead h2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+  width: 100%;
+}
+#why-Choose-Us .outstanding-speed .text {
+  width: 85%;
+  min-height: 150px;
+  margin: auto;
+}
+#why-Choose-Us .outstanding-speed .text p {
+  font-size: 20px;
+  width: 100%;
+}
+
+#testimonials {
+  background-color: #eceeef;
+  width: 100%;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#testimonials h2 {
+  min-height: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 400;
+  color: #4D4D4D;
+}
+#testimonials .genifer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#testimonials .genifer .image-name {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#testimonials .genifer .image-name img {
+  width: 20%;
+  height: 10%;
+  border-radius: 50%;
+}
+#testimonials .genifer .image-name h6 {
+  font-family: sans-serif;
+  font-weight: 300;
+}
+#testimonials .genifer .image-name p {
+  font-size: 17px;
+  color: #999999;
+  font-weight: 400;
+  min-height: 30px;
+}
+#testimonials .genifer .paragraf {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+#testimonials .genifer .paragraf p {
+  color: #4D4D4D;
+  font-size: 17px;
+  width: 40%;
+  text-align: center;
+}
+
+footer #companyAbout {
+  width: 100%;
+  height: 654px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #393e46;
+}
+footer #companyAbout .company {
+  display: flex;
+}
+footer #companyAbout .company .CompanyAbout h2 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  height: 40px;
+}
+footer #companyAbout .company .CompanyAbout p {
+  cursor: pointer;
+  font-size: 16px;
+  color: #cccccc;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+footer #companyAbout .company .CompanyAbout p:hover {
+  color: white;
+}
+footer #companyAbout .UsaEurope {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+footer #companyAbout .UsaEurope .Europe h3 {
+  color: white;
+  font-size: 18px;
+  font-weight: 400;
+  height: 40px;
+}
+footer #companyAbout .UsaEurope .Europe .EuropeTxt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+footer #companyAbout .UsaEurope .Europe .EuropeTxt .japsonStreet {
+  width: 26%;
+  height: 80px;
+  font-size: 16px;
+  color: #cccccc;
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+footer #companyAbout .UsaEurope .Europe .EuropeTxt .carlStreet {
+  width: 31%;
+  height: 50px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+footer #companyAbout .UsaEurope .Europe .EuropeTxt .telMail {
+  width: 50%;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 500;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+footer #companyAbout .createdYear {
+  width: 100%;
+  height: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+footer #companyAbout .createdYear p {
+  height: 25%;
+  display: flex;
+  align-items: end;
+  gap: 3px;
+  font-size: 16px;
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 300;
+  font-family: Arial, Helvetica, sans-serif;
+  transition: 0.3s ease;
+}
+footer #companyAbout .createdYear p i {
+  height: 40%;
+  display: flex;
+  align-items: center;
+}
+footer #companyAbout .createdYear p a {
+  text-decoration: none;
+  font-family: poppins;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 300;
+  color: rgba(255, 255, 255, 0.4470588235);
+  cursor: pointer;
+}
